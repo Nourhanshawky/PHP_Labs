@@ -9,10 +9,13 @@ var_dump($_SERVER);
 
 //3-
 $indexedArray = array(45 , 12 , 25 , 10);
-
-$sum = $indexedArray[0] +$indexedArray[1]+ $indexedArray[2] + $indexedArray[3];
+$count = count($indexedArray);
+$sum = 0;
+for($i=0 ; $i<$count ;$i++){
+    $sum += $indexedArray[$i] ;
+}
 echo "<h3> The sum of indexed array is: ".$sum ."</h3>";
-$avg = $sum / 4 ;
+$avg = $sum / $count ;
 echo "<h3> The average of indexed array is: ".$avg ."</h3>";
 
 rsort($indexedArray);
