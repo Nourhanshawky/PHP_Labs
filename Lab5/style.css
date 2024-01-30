@@ -1,0 +1,62 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(54, 53, 53);
+    color: aliceblue;
+    
+    
+}
+.Navbar {
+    list-style: none;
+    display: flex;
+          
+    
+
+}
+.Navbar li{
+    margin: 16px;
+   
+}
+.Navbar a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.form{
+   
+    border: 3px solid green;
+    background-color: #e8f5e9;
+   margin-left: 200px;
+   margin-right:200px ;
+   margin-top: 15px;
+   padding: 15px;
+    
+}
+.form form{
+    text-align: center;
+}
+#star{
+    color: red;
+}
+/* .child{
+    display:inline-block; */
+    /* vertical-align: middle; */
+    
+/* } */
+label:not(.splabel){
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+    /* margin-right: 18px; */
+    border:  1px  solid #c8e6c9;
+    background-color: #c8e6c9;
+    padding: 5px;
+    text-align: right;
+
+}
+h3{
+    border: 2px green solid ;
+    border-style: dashed;
+    background-color: #c8e6c9;
+    padding: 3px;
+}
