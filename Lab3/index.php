@@ -36,7 +36,7 @@
         Gender: <input type="radio" name="gender" value="female">Female
        <input type="radio" name="gender" value="male">Male  <br><br>
 
-       Select Courses: <select name="courses[]" multiple>
+        Select Courses: <select name="courses[]" multiple>
             <option value="PHP">PHP</option>
             <option value="Java Script">Java Script</option>
             <option value="MySQL">MySQL</option>
